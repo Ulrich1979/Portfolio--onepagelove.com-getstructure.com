@@ -1,0 +1,21 @@
+:root {
+    --col-light-1: #f6f7f9;
+    --col-light-2: #dadbd5;
+    --col-light-3: #efefff;
+    --col-light-blue: #e4f3fd;
+    --col-dark-1: #00001f;
+    --col-dark-2: #474959;
+    --col-accent-blue: #5ac1ff;
+    --col-accent-rose: #feb5ff;
+    --col-accent-purple: #c1bcff;
+}
+
+body {
+    background-color: var(--col-light-grey);
+    font-family: "Epilogue", sans-serif;
+    color: var(--col-dark-1);
+}
+
+h1 {
+    font-size: 8vw;
+}
