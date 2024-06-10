@@ -11,11 +11,20 @@
 }
 
 body {
-    background-color: var(--col-light-grey);
+    background-color: var(--col-light-1);
     font-family: "Epilogue", sans-serif;
     color: var(--col-dark-1);
 }
 
 h1 {
     font-size: 8vw;
+}
+
+h2 {
+    font-size: 6vw;
+}
+
+.col-invert {
+    background-color: var(--col-dark-1);
+    color: var(--col-light-1);
 }
