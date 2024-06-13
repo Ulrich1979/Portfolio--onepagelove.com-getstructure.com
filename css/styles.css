@@ -29,12 +29,16 @@ h2 {
     color: var(--col-light-1);
 }
 
-.badge {
-    padding: 0.5rem 2rem;
+.bg-col-accent-blue {
+    background-color: var(--col-accent-blue);
 }
 
-#how #badge-week-1 {
-    background-color: var(--col-accent-blue);
+.bg-col-accent-rose {
+    background-color: var(--col-accent-rose);
+}
+
+.bg-col-accent-purple {
+    background-color: var(--col-accent-purple);
 }
 
 p.shifting-text {
