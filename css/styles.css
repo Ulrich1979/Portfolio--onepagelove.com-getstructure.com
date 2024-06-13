@@ -41,6 +41,10 @@ h2 {
     background-color: var(--col-accent-purple);
 }
 
+.h-fix-15 {
+    height: 15rem;
+}
+
 p.shifting-text {
     height: 0;
     transition: height 1s;
