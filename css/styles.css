@@ -36,3 +36,14 @@ h2 {
 #how #badge-week-1 {
     background-color: var(--col-accent-blue);
 }
+
+p.shifting-text {
+    height: 0;
+    transition: height 1s;
+}
+
+.card-body:hover {
+    p.shifting-text {
+        height: 100%;
+    }
+}
