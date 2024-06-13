@@ -52,6 +52,7 @@ p.shifting-text {
 }
 
 .card-body:hover {
+    background-color: var(--col-light-blue);
     p.shifting-text {
         height: 100%;
     }
