@@ -8,13 +8,14 @@
     --col-accent-blue: #5ac1ff;
     --col-accent-rose: #feb5ff;
     --col-accent-purple: #c1bcff;
+    --bs-border-color: var(--col-light-2);
 }
 
 .accordion {
-    --bs-accordion-btn-color: #f6f7f9;
-    --bs-accordion-active-bg: transparent;
+    --bs-accordion-btn-color: var(--col-light-1);
+    --bs-accordion-active-bg: var(--col-accent-purple);
     --bs-accordion-bg: transparent;
-    --bs-accordion-active-color: #474959;
+    --bs-accordion-active-color: var(--col-light-2);
 }
 
 body {
