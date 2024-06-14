@@ -55,29 +55,30 @@
             <form>
               <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                  <label for="exampleInputFirstName" class="form-label">Email address</label>
+                  <input type="text" class="input-field" placeholder="First name" id="exampleInputFirstName" aria-label="First name">
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                  <label for="exampleInputLastName" class="form-label">Email address</label>
+                  <input type="text" class="input-field" placeholder="Last name" id="exampleInputLastName" aria-label="Last name">
                 </div>
               </div>
               <div class="row">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="input-field" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">We'll get beck to you by mail.</div>
                 </div>
                 <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <textarea class="input-field" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2">Comments</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-outline">Send</button>
+            <button type="submit" class="btn btn-outline">Send</button>
           </div>
         </div>
       </div>

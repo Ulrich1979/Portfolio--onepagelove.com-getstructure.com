@@ -88,6 +88,13 @@ p.shifting-text {
     overflow: hidden;
 }
 
+.input-field {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--col-dark-2);
+}
+
+
 .card:hover {
     background-color: var(--col-light-blue);
     p.shifting-text {
