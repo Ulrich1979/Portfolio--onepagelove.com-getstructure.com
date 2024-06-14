@@ -8,6 +8,8 @@
     --col-accent-blue: #5ac1ff;
     --col-accent-rose: #feb5ff;
     --col-accent-purple: #c1bcff;
+    --bs-accordion-btn-color: #f6f7f9;
+    --bs-accordion-bg: transparent;
 }
 
 body {
@@ -49,6 +51,11 @@ h2 {
     background-color: var(--col-dark-2);
 }
 
+.col-dark-2 {
+    color: var(--col-dark-2);
+}
+
+
 
 .h-fix-15 {
     height: 15rem;
@@ -86,6 +93,7 @@ p.shifting-text {
     border-radius: 2rem;
     background-color: var(--col-dark-2);
     color: var(--col-light-1);
+    border: none !important;
 }
 
 .d-inline {
