@@ -41,6 +41,15 @@ h2 {
     background-color: var(--col-accent-purple);
 }
 
+.bg-col-dark-1 {
+    background-color: var(--col-dark-1);
+}
+
+.bg-col-dark-2 {
+    background-color: var(--col-dark-2);
+}
+
+
 .h-fix-15 {
     height: 15rem;
 }
@@ -51,7 +60,7 @@ p.shifting-text {
     overflow: hidden;
 }
 
-.card-body:hover {
+.card:hover {
     background-color: var(--col-light-blue);
     p.shifting-text {
         height: 100%;
