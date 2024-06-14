@@ -54,6 +54,10 @@ h2 {
     height: 15rem;
 }
 
+.left-important {
+    left: auto !important;
+}
+
 p.shifting-text {
     height: 0;
     transition: height 1s;
