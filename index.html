@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <!-- NAVIGATION -->
+
     <nav class="navbar navbar-expand-lg border-bottom border-dark">
         <div class="container">
             <a class="navbar-brand" href="#">getstructure</a>
@@ -22,20 +25,44 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0 border-dark border rounded fs-6">
-                    <li class="nav-item">
+                    <li class="nav-item mx-3">
                         <a class="nav-link" href="#learn">Learn</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-3">
                         <a class="nav-link" href="#compare">Compare</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-3">
                         <a class="nav-link" href="#service">Service</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success d-flex" type="submit">Contact Us</button>
+                <button type="button" class="btn btn-outline-dark d-flex" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Contact Us
+                </button>
             </div>
         </div>
     </nav>
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Here comes your Contact Form in!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN PARTS -->
 
     <main>
         <header class="container">
@@ -236,7 +263,9 @@
             </div>
         </section>
     </main>
-    
+
+        <!-- FOOTER -->
+
     <footer class="col-invert">
       <div class="container text-center my-5">
           <div class="row py-3 text-start row-cols-3">
