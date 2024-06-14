@@ -71,13 +71,24 @@ p.shifting-text {
     }
 }
 
-.testimonial-button {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 4rem;
+.testimonial-button, .carousel-indicators [data-bs-target]  {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    background-color: var(--col-light-2);
     border: 1px solid var(--col-dark-2);
 }
 
 .d-inline {
     display: inline;
+}
+
+a.footer-nav-item {
+    color: var(--col-light-1);
+    text-decoration: none;
+}
+
+a.footer-nav-item:hover {
+    color: var(--col-light-2);
+    border-bottom: 1px solid var(--col-light-2);
 }
