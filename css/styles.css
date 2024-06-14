@@ -71,7 +71,12 @@ p.shifting-text {
     }
 }
 
-.testimonial-button, .carousel-indicators [data-bs-target]  {
+.carousel-control-group {
+    display: flex;
+    justify-content: end;
+}
+
+.carousel-control-group button {
     height: 2rem;
     width: 2rem;
     border-radius: 2rem;
