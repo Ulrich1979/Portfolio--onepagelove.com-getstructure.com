@@ -10,6 +10,7 @@
     --col-accent-purple: #c1bcff;
     --bs-border-color: var(--col-light-2);
     --bs-heading-color: var(--col-dark-1);
+    --bs-btn-border-color: var(--col-dark-2);
 }
 
 .modal {
