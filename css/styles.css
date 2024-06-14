@@ -9,7 +9,9 @@
     --col-accent-rose: #feb5ff;
     --col-accent-purple: #c1bcff;
     --bs-accordion-btn-color: #f6f7f9;
+    --bs-accordion-active-bg: transparent;
     --bs-accordion-bg: transparent;
+    --bs-accordion-active-color: #474959;
 }
 
 body {
