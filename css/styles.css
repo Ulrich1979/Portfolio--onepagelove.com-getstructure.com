@@ -45,7 +45,9 @@ h2 {
 
 .col-invert {
     background-color: var(--col-dark-1);
-    color: var(--col-light-1);
+    h1, h2, h3, p, a {
+        color: var(--col-light-1);
+    }
 }
 
 .bg-col-accent-blue {
@@ -71,8 +73,6 @@ h2 {
 .col-dark-2 {
     color: var(--col-dark-2);
 }
-
-
 
 .h-fix-15 {
     height: 15rem;
