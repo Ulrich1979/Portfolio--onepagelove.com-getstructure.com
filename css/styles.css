@@ -70,3 +70,7 @@ p.shifting-text {
         height: 100%;
     }
 }
+
+.d-inline {
+    display: inline;
+}
