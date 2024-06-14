@@ -9,6 +9,15 @@
     --col-accent-rose: #feb5ff;
     --col-accent-purple: #c1bcff;
     --bs-border-color: var(--col-light-2);
+    --bs-heading-color: var(--col-dark-1);
+}
+
+.modal {
+    --bs-modal-bg: var(--col-light-2);
+}
+
+.modal-content {
+    --bs-modal-color: var(--col-dark-1);
 }
 
 .accordion {
