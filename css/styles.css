@@ -93,11 +93,11 @@ p.shifting-text {
     border: 1px solid var(--col-dark-2);
 }
 
-.btn-submit {
+.btn-accent {
     background-color: var(--col-light-2);
 }
 
-.btn-submit:hover {
+.btn-accent:hover {
     background-color: var(--col-accent-blue);
 }
 
