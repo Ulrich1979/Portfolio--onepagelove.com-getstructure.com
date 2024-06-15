@@ -89,11 +89,17 @@ p.shifting-text {
 }
 
 .input-field {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid var(--col-dark-2);
+    background-color: var(--col-light-2);
+    border: 1px solid var(--col-dark-2);
 }
 
+.btn-submit {
+    background-color: var(--col-light-2);
+}
+
+.btn-submit:hover {
+    background-color: var(--col-accent-blue);
+}
 
 .card:hover {
     background-color: var(--col-light-blue);
