@@ -127,7 +127,7 @@ p.shifting-text {
 }
 
 .carousel-control-group button:hover {
-    background-color: var(--col-accent-rose);
+    background-color: var(--col-accent-blue);
 }
 
 .d-inline {
