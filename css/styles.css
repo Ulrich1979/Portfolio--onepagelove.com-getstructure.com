@@ -109,17 +109,13 @@ p.shifting-text {
 }
 
 .carousel-control-group {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .carousel-control-group button {
     height: 2rem;
     width: 2rem;
-    margin-left: 2rem;
     border-radius: 2rem;
     background-color: var(--col-dark-2);
     color: var(--col-light-1);
