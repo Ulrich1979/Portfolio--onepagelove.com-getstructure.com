@@ -177,12 +177,12 @@ a.footer-nav-item:hover {
   
   .logos:before {
     left: 0;
-    background: linear-gradient(to left, var(--col-light-1), var(--col-light-1));
+    background: linear-gradient(to left, var(--col-light-1), #f6f7f900);
   }
   
   .logos:after {
     right: 0;
-    background: linear-gradient(to right, var(--col-light-1), var(--col-light-1));
+    background: linear-gradient(to right, var(--col-light-1), #f6f7f900);
   }
   
   .logos:hover .logos-slide {
