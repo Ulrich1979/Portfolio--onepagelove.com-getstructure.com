@@ -161,10 +161,7 @@ a.footer-nav-item:hover {
   }
   
   .logos {
-    margin-top: 10rem;
     overflow: hidden;
-    padding: 4rem 0;
-    background: white;
     white-space: nowrap;
     position: relative;
   }
