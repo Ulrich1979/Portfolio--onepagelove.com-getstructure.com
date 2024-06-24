@@ -141,17 +141,7 @@ a.footer-nav-item:hover {
 }
 
 /* SLIDERS OF PARTNERS */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: #ddd;
-  }
-  
-  @keyframes slide {
+@keyframes slide {
     from {
       transform: translateX(0);
     }
@@ -160,13 +150,14 @@ a.footer-nav-item:hover {
     }
   }
   
-  .logos {
+.logos {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
   }
-  .logos:before,
-  .logos:after {
+
+.logos:before,
+.logos:after {
     position: absolute;
     top: 0;
     width: 10rem;
@@ -175,25 +166,25 @@ a.footer-nav-item:hover {
     z-index: 2;
   }
   
-  .logos:before {
+.logos:before {
     left: 0;
     background: linear-gradient(to left, var(--col-light-1), #f6f7f900);
   }
   
-  .logos:after {
+.logos:after {
     right: 0;
     background: linear-gradient(to right, var(--col-light-1), #f6f7f900);
   }
   
-  .logos:hover .logos-slide {
+.logos:hover .logos-slide {
     animation-play-state: paused;
   }
   
-  .logos-slide {
+.logos-slide {
     display: inline-block;
     animation: 15s slide infinite linear;
   }
   
-  .logos-slide img {
+.logos-slide img {
     height: 5rem;
   }
