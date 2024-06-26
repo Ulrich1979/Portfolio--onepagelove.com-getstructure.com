@@ -3,8 +3,8 @@
 working title **e.currency**
 
 Clone of the Site
-[getstructure.com](https://www.getstructure.com/?ref=onepagelove))
-on [ONEPAGELOVE.COM](https://onepagelove.com/))
+[getstructure.com](https://www.getstructure.com/?ref=onepagelove)
+on [ONEPAGELOVE.COM](https://onepagelove.com/)
 
 ## Goals / Issues
 
