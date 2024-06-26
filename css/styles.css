@@ -22,7 +22,7 @@
 }
 
 .accordion {
-    --bs-accordion-color: var(var(--col-light-2);
+    --bs-accordion-color: var(--col-light-2);
     --bs-accordion-btn-color: var(--col-light-1);
     --bs-accordion-active-bg: var(--col-accent-purple);
     --bs-accordion-bg: transparent;
